@@ -19,7 +19,7 @@
 
 ---
 
-![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.40-brightgreen.svg)
+![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.41-brightgreen.svg)
 [![License](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fullpage.js)
 [![Minzipped Size](https://img.shields.io/bundlephobia/minzip/fullpage.js)](https://bundlephobia.com/package/fullpage.js)
@@ -1145,7 +1145,7 @@ Torne-se um patrocinador e obtenha seu logotipo em nosso README no Github com um
 
 [![Warp](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/warp.png)](http://go.warp.dev/fullPage)
 [![Crawlbase](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/crawlbase.png)](https://crawlbase.com/?utm_source=github&utm_medium=sponsor&utm_campaign=fullpagejs)
-[![LambdaTest](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/lambdatest.png)](https://www.lambdatest.com/)
+[![TestMu](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/testmu-ai.png)](https://www.testmu.com/?utm_source=fullpagejs&utm_medium=sponsor)
 [![Codeless](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/codeless.png)](https://codeless.co)
 [![Stackpath](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/stackpath3.png)](https://www.stackpath.com/)
 [![Browserstack](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/browserstack3.png)](http://www.browserstack.com/)
