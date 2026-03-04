@@ -19,7 +19,7 @@
 
 ---
 
-![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.40-brightgreen.svg)
+![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.41-brightgreen.svg)
 [![License](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fullpage.js)
 [![Minzipped Size](https://img.shields.io/bundlephobia/minzip/fullpage.js)](https://bundlephobia.com/package/fullpage.js)
@@ -244,6 +244,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveSlides: false,
 	effects: false,
 	effectsOptions: [Object],
+	cinematic: false,
+	cinematicOptions: [Object],
 	parallax: false,
 	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
 	dropEffect: false,
@@ -641,14 +643,22 @@ new fullpage('#fullpage', {
 
 (default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/). When set to `true` slides will be turned into vertical sections when responsive mode is fired. (by using the `responsiveWidth` or `responsiveHeight` options detailed above). Requires fullpage.js >= 3.0.1.
 
+### cinematic
+
+(default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/cinematic.html). Enables or disables the slider effects on sections. Requires fullpage.js >= 4.0.41
+
+### cinematicOptions
+
+(default: `{Object}` Allows to configure the parameters for the animation of the content when using the option `cinematic:true`. [Read more](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 
 (default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). Enables or disables the slider effects on sections. Requires fullpage.js >= 4.0.35
 
 ### effectsOptions
 
-(default: `{Object}` config for the ["focus" preset](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)).
-Allows to configure the parameters for the effects when using the option `effects:true`. [Read more about how to apply the effects option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation).
+(default: `{Object}` config for the ["focus" preset](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presets)).
+Allows to configure the parameters for the effects when using the option `effects:true`. [Read more about how to apply the effects option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation).
 
 ### parallax
 
@@ -1215,7 +1225,7 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 
 [![Warp](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/warp.png)](http://go.warp.dev/fullPage)
 [![Crawlbase](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/crawlbase.png)](https://crawlbase.com/?utm_source=github&utm_medium=sponsor&utm_campaign=fullpagejs)
-[![LambdaTest](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/lambdatest.png)](https://www.lambdatest.com/)
+[![TestMu](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/testmu-ai.png)](https://www.testmu.com/?utm_source=fullpagejs&utm_medium=sponsor)
 [![Codeless](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/codeless.png)](https://codeless.co)
 [![Stackpath](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/stackpath3.png)](https://www.stackpath.com/)
 [![Browserstack](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/browserstack3.png)](http://www.browserstack.com/)

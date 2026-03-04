@@ -18,7 +18,7 @@
 
 ---
 
-![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.40,2-brightgreen.svg)
+![fullPage.js version](https://img.shields.io/badge/fullPage.js-v4.0.41,2-brightgreen.svg)
 [![License](https://img.shields.io/badge/License-GPL-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fullpage.js)
 [![Minzipped Size](https://img.shields.io/bundlephobia/minzip/fullpage.js)](https://bundlephobia.com/package/fullpage.js)
@@ -237,6 +237,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -585,12 +587,20 @@ new fullpage('#fullpage', {
 ### responsiveSlides
 （默认`false`）[fullpage.js 的扩展](https://alvarotrigo.com/fullPage/extensions/)。 设置为`true`时，在响应模式被触发时，slide 将变成垂直 section。 （通过使用上面详述的 `responsiveWidth` 或 `responsiveHeight` 选项）。 需要fullpage.js> = 3.0.1。
 
+### cinematic
+
+（默认值 `false`）[fullpage.js 扩展](https://alvarotrigo.com/fullPage/extensions/cinematic.html)。启用或禁用各个 section 的滑动效果。需要 fullpage.js >= 4.0.41。
+
+### cinematicOptions
+
+（默认值：`{Object}`）允许在使用 `cinematic:true` 选项时配置内容动画的参数。[了解更多](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions)。
+
 ### effects
-（默认值为 `false`）[fullpage.js 扩展功能](https://alvarotrigo.com/fullPage/extensions/slider-effects.html)。启用或禁用 section 的滑动效果。需要 fullpage.js >= 4.0.35
+（默认值： `false`）[fullpage.js 扩展功能](https://alvarotrigo.com/fullPage/extensions/slider-effects.html)。启用或禁用 section 的滑动效果。需要 fullpage.js >= 4.0.35
 
 ### effectsOptions
-（默认值：`{Object}`，使用 ["focus" 预设](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)）。  
-启用 `effects:true` 时，用于配置效果参数。[了解如何应用 effects 选项](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+（默认值：`{Object}`，使用 ["focus" 预设](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)）。  
+启用 `effects:true` 时，用于配置效果参数。[了解如何应用 effects 选项](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 
 ### parallax
@@ -1134,7 +1144,7 @@ new fullpage('#fullpage', {
 
 [![Warp](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/warp.png)](http://go.warp.dev/fullPage)
 [![Crawlbase](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/crawlbase.png)](https://crawlbase.com/?utm_source=github&utm_medium=sponsor&utm_campaign=fullpagejs)
-[![LambdaTest](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/lambdatest.png)](https://www.lambdatest.com/)
+[![TestMu](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/testmu-ai.png)](https://www.testmu.com/?utm_source=fullpagejs&utm_medium=sponsor)
 [![Codeless](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/codeless.png)](https://codeless.co)
 [![Stackpath](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/stackpath3.png)](https://www.stackpath.com/)
 [![Browserstack](https://cdn.jsdelivr.net/gh/alvarotrigo/fullpage-assets/imgs/sponsors/browserstack3.png)](http://www.browserstack.com/)
