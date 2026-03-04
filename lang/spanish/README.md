@@ -242,6 +242,8 @@ new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -592,12 +594,20 @@ new fullpage('#fullpage', {
 ### responsiveSlides
 (por defecto `false`) [Extensión de fullpage.js](https://alvarotrigo.com/fullPage/extensions/). Cuando se define a `true` las diapositivas horizontales se convertirán en secciones verticales cuando el modo responsive se active (haciendo uso de las opciones `responsiveWith` o `responsiveHeight` detalladas arriba).
 
+### cinematic
+
+(por defecto `false`) [Extensión de fullpage.js](https://alvarotrigo.com/fullPage/extensions/cinematic.html). Activa o desactiva los efectos cinematic en las secciones. Requiere fullpage.js >= 4.0.41.
+
+### cinematicOptions
+
+(por defecto: `{Object}`) Permite configurar los parámetros de la animación del contenido cuando se utiliza la opción `cinematic:true`. [Leer más](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 (por defecto: `false`) [Extensión de fullpage.js](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). Activa o desactiva los efectos de deslizamiento en las secciones. Requiere fullpage.js >= 4.0.35
 
 ### effectsOptions
-(por defecto: `{Object}`, configuración del preset ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)).  
-Permite configurar los parámetros de los efectos cuando se usa la opción `effects:true`. [Leer más sobre cómo aplicar la opción effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+(por defecto: `{Object}`, configuración del preset ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)).  
+Permite configurar los parámetros de los efectos cuando se usa la opción `effects:true`. [Leer más sobre cómo aplicar la opción effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 ### parallax
 (por defecto `false`) [Extensión de fullpage.js](https://alvarotrigo.com/fullPage/extensions/). Determina si usar fondos de sección y diapositiva con efecto parallax o no. [Lee más acerca de la opción parallax aquí](https://github.com/alvarotrigo/fullPage.js/blob/master/lang/spanish/parallax-extension.md).

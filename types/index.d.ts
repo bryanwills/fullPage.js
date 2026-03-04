@@ -18,6 +18,7 @@ type SkipIntermediateItems = boolean | "sections" | "slides";
 type Trigger = "slideArrow" | "verticalNav" | "horizontalNav" | "keydown" | "wheel" | "menu";
 type ScrollOverflowReset = boolean | "slides" | "sections";
 type Effects = boolean | string;
+type Cinematic = boolean | string;
 type WaterEffectOptions = {
     animateContent: boolean
     animateOnMouseMove: boolean
@@ -31,6 +32,14 @@ type ParallaxOptions = {
     percentage?: number
     property?: "translate" | "background"
     type?: "reveal" | "cover"
+};
+
+type CinematicContentDirection = 'auto' | 'vertical' | 'horizontal' | 'none';
+type CinematicOptions = {
+    animateContent: true;
+    contentDistance: number;
+    contentEasing: string;
+    contentDirection: CinematicContentDirection;
 };
 
 type EffectsOptions = {

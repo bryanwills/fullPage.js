@@ -234,6 +234,8 @@ new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -575,12 +577,20 @@ new fullpage('#fullpage', {
 ### responsiveSlides
 (기본값 `false`) [fullpage.js 확장 프로그램](https://alvarotrigo.com/fullPage/extensions/). `true`로 설정될 경우 반응형 모드가 실행되면 슬라이드가 수직 구역으로 바뀝니다. (위에 상세히 설명된 `responsiveWidth` 또는 `responsiveHeight` 옵션을 써서 구현됩니다). fullpage.js 버전이 3.0.1 이상이어야 합니다.
 
+### cinematic
+
+(기본값 `false`) [fullPage.js 확장 기능](https://alvarotrigo.com/fullPage/extensions/cinematic.html). 섹션에서 슬라이더 효과를 활성화하거나 비활성화합니다. fullpage.js >= 4.0.41 이 필요합니다.
+
+### cinematicOptions
+
+(기본값: `{Object}`) `cinematic:true` 옵션을 사용할 때 콘텐츠 애니메이션의 매개변수를 설정할 수 있습니다. [자세히 보기](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 (기본값: `false`) [fullpage.js 확장 기능](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). 섹션에 슬라이더 효과를 활성화하거나 비활성화합니다. fullpage.js >= 4.0.35 필요
 
 ### effectsOptions
-(기본값: `{Object}` ["focus" 프리셋](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)의 구성).  
-`effects:true` 옵션을 사용할 때 효과에 대한 매개변수를 구성할 수 있습니다. [effects 옵션 적용 방법에 대해 자세히 알아보기](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+(기본값: `{Object}` ["focus" 프리셋](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)의 구성).  
+`effects:true` 옵션을 사용할 때 효과에 대한 매개변수를 구성할 수 있습니다. [effects 옵션 적용 방법에 대해 자세히 알아보기](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 ### parallax
 (기본값 `false`) [fullpage.js 확장 프로그램](https://alvarotrigo.com/fullPage/extensions/). 구역 / 슬라이드에서 패럴랙스 배경 효과를 쓸지 여부를 정의합니다. [패럴랙스 옵션을 어떻게 적용하는지 읽어보세요](https://github.com/alvarotrigo/fullPage.js/blob/master/lang/korean/parallax-extension.md).

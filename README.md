@@ -244,6 +244,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveSlides: false,
 	effects: false,
 	effectsOptions: [Object],
+	cinematic: false,
+	cinematicOptions: [Object],
 	parallax: false,
 	parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
 	dropEffect: false,
@@ -641,14 +643,22 @@ new fullpage('#fullpage', {
 
 (default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/). When set to `true` slides will be turned into vertical sections when responsive mode is fired. (by using the `responsiveWidth` or `responsiveHeight` options detailed above). Requires fullpage.js >= 3.0.1.
 
+### cinematic
+
+(default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/cinematic.html). Enables or disables the slider effects on sections. Requires fullpage.js >= 4.0.41
+
+### cinematicOptions
+
+(default: `{Object}` Allows to configure the parameters for the animation of the content when using the option `cinematic:true`. [Read more](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 
 (default `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). Enables or disables the slider effects on sections. Requires fullpage.js >= 4.0.35
 
 ### effectsOptions
 
-(default: `{Object}` config for the ["focus" preset](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)).
-Allows to configure the parameters for the effects when using the option `effects:true`. [Read more about how to apply the effects option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation).
+(default: `{Object}` config for the ["focus" preset](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presets)).
+Allows to configure the parameters for the effects when using the option `effects:true`. [Read more about how to apply the effects option](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation).
 
 ### parallax
 

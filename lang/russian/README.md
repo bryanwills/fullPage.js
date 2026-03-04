@@ -237,6 +237,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -580,12 +582,20 @@ new fullpage('#fullpage', {
 ### responsiveSlides
 (по умолчанию `false`) [Расширение fullpage.js](https://alvarotrigo.com/fullPage/extensions/). При установке значения `true` слайды будут трансформироваться в вертикальные разделы при активации отзывчивого режима. (с помощью опций `responsiveWidth` или `responsiveHeight`, подробно описанных выше). Необходима версия fullpage.js >= 3.0.1.
 
+### cinematic
+
+(по умолчанию `false`) [Расширение fullpage.js](https://alvarotrigo.com/fullPage/extensions/cinematic.html). Включает или отключает эффекты слайдера на секциях. Требуется fullpage.js >= 4.0.41.
+
+### cinematicOptions
+
+(по умолчанию: `{Object}`) Позволяет настроить параметры анимации содержимого при использовании опции `cinematic:true`. [Подробнее](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 (по умолчанию `false`) [Расширение fullpage.js](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). Включает или отключает эффекты слайдера для секций. Требуется fullpage.js версии >= 4.0.35
 
 ### effectsOptions
-(по умолчанию: `{Object}`, конфигурация для пресета ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)).  
-Позволяет настроить параметры эффектов при использовании опции `effects:true`. [Подробнее об опции effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+(по умолчанию: `{Object}`, конфигурация для пресета ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)).  
+Позволяет настроить параметры эффектов при использовании опции `effects:true`. [Подробнее об опции effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 
 ### parallax

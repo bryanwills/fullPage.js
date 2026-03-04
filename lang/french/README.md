@@ -245,6 +245,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -595,12 +597,20 @@ Vous pouvez aussi empêcher le scrolloverflow d'être appliqué en mode réactif
 ### responsiveSlides
 (défaut `false`) [Extension de fullpage.js](https://alvarotrigo.com/fullPage/extensions/). Quand il est réglé sur `true`, les diapositives seront transformées en sections verticales quand le mode réactif est activé. (en utilisant les options `responsiveWidth` ou `responsiveHeight` détaillées ci-dessus). Nécessite fullpage.js >= 3.0.1.
 
+### cinematic
+
+(valeur par défaut `false`) [Extension de fullpage.js](https://alvarotrigo.com/fullPage/extensions/cinematic.html). Active ou désactive les effets de slider sur les sections. Nécessite fullpage.js >= 4.0.41.
+
+### cinematicOptions
+
+(valeur par défaut : `{Object}`) Permet de configurer les paramètres d’animation du contenu lors de l’utilisation de l’option `cinematic:true`. [En savoir plus](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions).
+
 ### effects
 (par défaut : `false`) [Extension de fullpage.js](https://alvarotrigo.com/fullPage/extensions/slider-effects.html). Active ou désactive les effets de transition sur les sections. Nécessite fullpage.js >= 4.0.35
 
 ### effectsOptions
-(par défaut : `{Object}`, configuration pour le preset ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)).  
-Permet de configurer les paramètres des effets lorsque l’option `effects:true` est utilisée. [En savoir plus sur l’utilisation de l’option effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+(par défaut : `{Object}`, configuration pour le preset ["focus"](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)).  
+Permet de configurer les paramètres des effets lorsque l’option `effects:true` est utilisée. [En savoir plus sur l’utilisation de l’option effects](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 ### parallax:true
 [En savoir plus sur la façon d'appliquer l'option parallax](https://github.com/alvarotrigo/fullPage.js/blob/master/lang/french/parallax-extension.md).

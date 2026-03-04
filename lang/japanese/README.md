@@ -247,6 +247,8 @@ var myFullpage = new fullpage('#fullpage', {
 	responsiveWidth: 0,
 	responsiveHeight: 0,
 	responsiveSlides: false,
+	cinematic: false,
+	cinematicOptions: [Object],
 	effects: false,
 	effectsOptions: [Object],
 	parallax: false,
@@ -743,13 +745,21 @@ fullpage.jsと同じセレクターを使用する他のプラグインとの問
 (デフォルト `false`) [Extension of fullpage.js](https://alvarotrigo.com/fullPage/extensions/) `true`に設定すると、レスポンシブモードが有効になったとき（上記の `responsiveWidth`または`responsiveHeight`オプションを使用）、スライドが縦方向のセクションに変わります。  
 fullpage.js >= 3.0.1が必要です。
 
+### cinematic
+
+（デフォルト：`false`）[fullPage.js の拡張機能](https://alvarotrigo.com/fullPage/extensions/cinematic.html)。セクションでのスライダーエフェクトを有効または無効にします。fullpage.js >= 4.0.41 が必要です。
+
+### cinematicOptions
+
+（デフォルト：`{Object}`）`cinematic:true` オプションを使用する際のコンテンツアニメーションのパラメータを設定できます。[詳細はこちら](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Cinematic-Effects#cinematicoptions)。
+
 ### effects
 （デフォルト：`false`）[fullpage.jsの拡張機能](https://alvarotrigo.com/fullPage/extensions/slider-effects.html)。セクションにスライダー効果を有効または無効にします。fullpage.js >= 4.0.35 が必要です。
 
 ### effectsOptions
-（デフォルト：`{Object}`、["focus" プリセット](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#available-presets)の設定）。  
+（デフォルト：`{Object}`、["focus" プリセット](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#20-available-presetss)の設定）。  
 `effects:true` オプションを使うときに、効果のパラメータを設定できます。  
-[effects オプションの適用方法について詳しくはこちら](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-%22Effects%22#effects-options-documentation)
+[effects オプションの適用方法について詳しくはこちら](https://github.com/alvarotrigo/fullPage.js/wiki/Extension-Slide-Effects#effects-options-documentation)
 
 ### parallax
 
